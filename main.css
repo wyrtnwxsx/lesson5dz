@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eeeef4;
+    background-color: #fff;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin-left: 50px;
+}
+.header__link{
+    color: #101010;
+    font-family: "Plus Jakarta Sans";
+     font-size: 16px;
+     font-weight:500;
+    line-height: 150%;
+    text-decoration: none;
+}
+.header_btn{
+    width: 160px;
+    border-radius: 6px;
+    background: #101010;
+    color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    padding: 10px 0;
+}
+.header__link:hover{
+    background-color: red;
+    transition: 0.4s ease-in-out;
+}
+.header__link{
+    color: rgb(26, 171, 123);
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: left;
+}
+.header__btn:hover{
+    background-color: transparent;
+    border: 1px solid #1aab7b;
+    color: #1aab7b;
+    transition: 0.4s ease-in-out;
+}
+.hero{
+    padding-bottom: 96px;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_textbox{
+    width: 440px;
+}
+.hero_title{
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.hero_text{
+    color: rgb(125, 121, 135);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hero_btn{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 17px 0;
+    width: 197px;
+    border: none;
+    border-radius: 55px;
+    background-color: #1aab7b;
+}
+.services{
+    padding-bottom: 106px;
+}
+.services_textbox{
+    width: 952px;
+    margin: 0 auto;
+    text-align: center;
+}
+.services_title{
+    font-family: "Mulish";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+.big{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border:1px solid grey; 
+    width: 300px;
+    height:200px ;
+    margin: 10px;
+    border-radius: 10px;
+}
+.hero_btn:hover{
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.hero_btn:active{
+    background-color: rgb(209,15, 15);
+    transition: 0.4s ease-in-out;
+}
+.background{
+    padding-top: 55px;
+    padding-bottom: 51px;
+}
+.bg_wrapper{
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bg_title{
+    color: rgb(16, 16, 16);
+font-family: Plus Jakarta Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: center;
+}
+.bg_text{
+    color: #000000;
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
+margin-top: 16px;
+}
+.bg_form{
+    width: 400px;
+    align-self: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 37px 29px 58px 78px;
+    text-align: center;
+    align-items: center;
+}
+.bg_image{
+    padding-top: 45px;
+    padding-bottom: 36px;
+    background-image: url(./images/image\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.bg_inputs{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #fffdfd;
+    opacity: 0.2;
+    margin-bottom: 50px;
+    outline: none;
+
+}
+.bg_btn{
+    display: block;
+    margin: 0 auto;
+    width: 217px;
+    border: none;
+    border-radius: 6px;
+    padding: 20px 0;
+    color: #ffffff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: rgb(26, 171, 123);
+}
+.footer{
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eeeef4;
+    background-color: #fff;
+    background-color: #000000;
+}
